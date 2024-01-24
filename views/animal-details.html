@@ -1,11 +1,11 @@
-{% extends 'base.html.njk' %}
+{% extends 'base.html' %}
 
 {% block body %}
 <h2>{{ animal.name }}</h2>
 
 <img src="{{ animal.image_url }}" />
 
-<h3>Price: ${{ animal.price.toFixed(2) }}</h3>
+<h3>Price: {{ animal.price.toFixed(2) }}</h3>
 
 <h3>Product details:</h3>
 
