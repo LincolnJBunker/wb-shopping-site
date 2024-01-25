@@ -26,6 +26,21 @@ app.get('/', (req, res) => {
   res.render('index.html');
 });
 
+app.get('/data', (req, res) => {
+  res.send({
+    message: 'nice to see you!',
+    results: [1, 2, 3, 4]
+  });
+});
+
+app.get('/supercool', (req, res) => {
+  res.send({
+    message: "welcome to the secret super cool club",
+    results: ['Your', "name", "is", 'Lincoln']
+  })
+})
+
+
 app.get('/all-animals', (req, res) => {
   res.render('all-animals.html', { animals: Object.values(stuffedAnimalData) });
 });

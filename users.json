@@ -3,5 +3,6 @@
   { "username": "jbrown", "password": "paddington", "name": "Judy Brown" },
   { "username": "bpotter", "password": "peterrabbit", "name": "Beatrix Potter" },
   { "username": "jhenson", "password": "muppets", "name": "Jim Henson" },
-  { "username": "tyiscool", "password": "yomomma", "name": "Ty Cannon" }
+  { "username": "tyiscool", "password": "yomomma", "name": "Ty Cannon" },
+  { "username:": "sneakylink", "password": "ayolesgo", "name": "Lincoln Bunker"}
 ]
